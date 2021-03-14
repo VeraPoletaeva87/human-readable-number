@@ -52,16 +52,6 @@ function getTeenName(n) {
 function getTwoNumberName(number) {
     let str = number.toString();
     let res='';
-    // switch (number) {
-    //     case 20: {
-    //         res = 'twenty';
-    //         return res;
-    //     }
-    //     case 30: {
-    //         res = 'thirty';
-    //         return res;
-    //     }
-    // }
     res = getNumberName(+str[0]) + 'ty';
     if (+str[0] === 5) {
         res = res.replace('ve', 'f');
